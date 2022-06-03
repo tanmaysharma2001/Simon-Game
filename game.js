@@ -16,9 +16,6 @@ $(document).keypress(function() {
   }
 });
 
-
-
-
 function nextSequence() {
 
   userClickedPattern = [];
@@ -71,9 +68,6 @@ function startOver() {
   started = false;
 }
 
-
-
-
 $(".btn").click(function() {
   var userChosenColour = this.id;
 
@@ -86,11 +80,6 @@ $(".btn").click(function() {
   checkAnswer(userClickedPattern.length - 1);
 
 });
-
-
-
-
-
 
 
 function playSound(name) {
